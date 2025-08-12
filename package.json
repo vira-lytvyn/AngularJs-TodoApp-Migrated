@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "deploy": "ng build --configuration production && npx angular-cli-ghpages --dir=dist/a2-app/browser"
   },
   "private": true,
   "dependencies": {

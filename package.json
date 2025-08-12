@@ -1,6 +1,7 @@
 {
   "name": "a2-app",
   "version": "0.0.0",
+  "homepage": "https://vira-lytvyn.github.io/AngularJs-TodoApp-Migrated/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "deploy": " npx angular-cli-ghpages --dir=dist/a2-app/browser"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +34,7 @@
     "@angular/compiler-cli": "^18.2.0",
     "@cypress/schematic": "^4.0.0",
     "@types/jasmine": "^5.1.8",
+    "angular-cli-ghpages": "^2.0.3",
     "cypress": "^14.5.4",
     "jasmine": "^5.9.0",
     "jasmine-core": "^5.2.0",

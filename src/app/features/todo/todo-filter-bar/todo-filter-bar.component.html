@@ -1,0 +1,24 @@
+<div class="row voffset2">
+  <div class="col-xs-12">
+    <a
+      href="#"
+      [ngClass]="{ active: criteria === 'all' }"
+      (click)="setCriteria('all')"
+      >All</a
+    >
+    |
+    <a
+      href="#"
+      [ngClass]="{ active: criteria === 'active' }"
+      (click)="setCriteria('active')"
+      >Active</a
+    >
+    |
+    <a
+      href="#"
+      [ngClass]="{ active: criteria === 'completed' }"
+      (click)="setCriteria('completed')"
+      >Completed</a
+    >
+  </div>
+</div>

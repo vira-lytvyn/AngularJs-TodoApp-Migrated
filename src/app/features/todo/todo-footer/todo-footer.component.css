@@ -1,0 +1,7 @@
+[class^="col"] {
+  width: auto ;
+}
+
+.row {
+    justify-content: space-between;
+}
